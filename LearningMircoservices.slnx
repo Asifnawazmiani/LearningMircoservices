@@ -1,0 +1,36 @@
+<Solution>
+  <Folder Name="/App/">
+    <Project Path="WebApp/WebApp.csproj" />
+  </Folder>
+  <Folder Name="/Clients/">
+    <Project Path="InventoryService.Client/InventoryService.Client.csproj" Id="cd770045-46df-42a0-9eae-178e634d60e4" />
+    <Project Path="OrderService.Client/OrderService.Client.csproj" Id="a6071d4a-ac39-40af-88c0-fe8cb54105ee" />
+    <Project Path="UserService.Client/UserService.Client.csproj" Id="1e5f58d3-29a9-44ad-805a-d75bebdbdf67" />
+  </Folder>
+  <Folder Name="/Domain/">
+    <Project Path="InventoryService.Domain/InventoryService.Domain.csproj" Id="3f19ff7e-7797-41ac-89c3-02d791ec7b1e" />
+    <Project Path="OrderService.Domain/OrderService.Domain.csproj" Id="82b1292d-3ce5-4aed-9858-251828ae7348" />
+    <Project Path="UserService.Domain/UserService.Domain.csproj" Id="f524586c-f1d4-46be-a439-c9ac81d6e12d" />
+  </Folder>
+  <Folder Name="/Gateway/">
+    <Project Path="ApiGateway/ApiGateway.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="Infrastructure.Messaging/Infrastructure.Messaging.csproj" Id="05ec3434-577a-42db-ae39-7574987bbec4" />
+    <Project Path="Infrastructure.Persistence/Infrastructure.Persistence.csproj" Id="fab8ee01-f565-4a5e-b642-afd11bd6fa11" />
+    <Project Path="InventoryService.Infrastructure/InventoryService.Infrastructure.csproj" Id="e7a36852-3211-4b57-93f1-e536108385e0" />
+    <Project Path="OrderService.Infrastructure/OrderService.Infrastructure.csproj" Id="f18d8370-e86b-4326-bb4c-97f3e5dc0ee6" />
+    <Project Path="UserService.Infrastructure/UserService.Infrastructure.csproj" Id="ba38d6db-0af1-472e-8449-607f965d0d78" />
+  </Folder>
+  <Folder Name="/Services/">
+    <Project Path="InventoryService/InventoryService.csproj" />
+    <Project Path="OrderService/OrderService.csproj" />
+    <Project Path="UserService/UserService.csproj" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="Shared.Common/Shared.Common.csproj" Id="ad4e4dd8-35b1-4c66-bcfa-275b6118f110" />
+    <Project Path="Shared.Events/Shared.Events.csproj" Id="878647dd-df95-4064-8bc1-c072db585e4a" />
+  </Folder>
+  <Project Path="AppHost/AppHost.csproj" Id="e7a54368-a42d-4903-8973-f05c82ad9a3f" />
+  <Project Path="ServiceDefaults/ServiceDefaults.csproj" Id="4f0560c2-5a20-4598-a48b-31f6c9834815" />
+</Solution>
