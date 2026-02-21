@@ -86,6 +86,14 @@ src/
 
 ---
 
+## Devloper Guide Lines:
+   - The solution is monorepo microservices architecture, where all services and shared libraries are in a single solution for easier development and code sharing.
+   - The solution has central package management for consistent dependency versions across projects.
+   - Each service has its own database and is responsible for its own data management, following the database per service pattern.
+   - Each service is an independent ASP.NET Core Web API project.
+   - The domain layer is separated into its own project for each service, containing entities, value objects, domain events, and exceptions.
+   - The auto generated ids are are guide version 7 for better performance and scalability. As it uses time-based UUIDs, it provides better indexing and query performance compared to random UUIDs, especially in high-concurrency scenarios.
+
 ## Solution Diagrams
 
 ### High-Level Architecture
