@@ -16,6 +16,7 @@
     <Project Path="ApiGateway/ApiGateway.csproj" />
   </Folder>
   <Folder Name="/Infrastructure/">
+    <Project Path="Infrastructure.Exceptions/Infrastructure.Exceptions.csproj" Id="a22f6fbb-3ed2-4a76-bccb-3951f477ffdc" />
     <Project Path="Infrastructure.Messaging/Infrastructure.Messaging.csproj" Id="05ec3434-577a-42db-ae39-7574987bbec4" />
     <Project Path="Infrastructure.Persistence/Infrastructure.Persistence.csproj" Id="fab8ee01-f565-4a5e-b642-afd11bd6fa11" />
     <Project Path="InventoryService.Infrastructure/InventoryService.Infrastructure.csproj" Id="e7a36852-3211-4b57-93f1-e536108385e0" />
