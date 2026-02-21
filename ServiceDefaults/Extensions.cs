@@ -7,6 +7,7 @@ using Microsoft.Extensions.ServiceDiscovery;
 using OpenTelemetry;
 using OpenTelemetry.Metrics;
 using OpenTelemetry.Trace;
+using Shared.Common.Correlation;
 
 namespace Microsoft.Extensions.Hosting
 {
@@ -25,6 +26,8 @@ namespace Microsoft.Extensions.Hosting
             builder.AddDefaultHealthChecks();
 
             builder.Services.AddServiceDiscovery();
+
+            builder.Services.AddScoped<ICorrelationContext, CorrelationContext>();
 
             builder.Services.ConfigureHttpClientDefaults(http =>
             {
