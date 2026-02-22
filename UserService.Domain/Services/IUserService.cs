@@ -13,5 +13,5 @@ public interface IUserService
     Task<List<UserResponse>> GetAllUsersAsync(CancellationToken ct = default);
     Task<UserResponse> CreateUserAsync(CreateUserRequest request, CancellationToken ct = default);
     Task<UserResponse> UpdateUserAsync(Guid id, UpdateUserRequest request, CancellationToken ct = default);
-    Task DeleteUserAsync(Guid id, CancellationToken ct = default);
+        Task DeleteUserAsync(Guid id, CancellationToken ct = default);
 }
