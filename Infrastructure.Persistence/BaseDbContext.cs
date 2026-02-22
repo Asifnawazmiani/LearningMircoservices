@@ -1,12 +1,13 @@
 ﻿// src/Infrastructure/Infrastructure.Persistence/BaseDbContext.cs
-using Infrastructure.Persistence.Entities;
 using Infrastructure.Persistence.Outbox;
 using Microsoft.EntityFrameworkCore;
+using Shared.Domain.Entities;
+using Shared.Domain.UnitOfWork;
 using System.Linq.Expressions;
 
 namespace Infrastructure.Persistence;
 
-public abstract class BaseDbContext : DbContext
+public abstract class BaseDbContext : DbContext, IUnitOfWork
 {
     protected BaseDbContext(DbContextOptions options) : base(options) { }
 

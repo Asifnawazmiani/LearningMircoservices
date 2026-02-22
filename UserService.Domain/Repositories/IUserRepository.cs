@@ -1,4 +1,4 @@
-﻿using Infrastructure.Persistence.Repositories;
+﻿using Shared.Domain.Repositories;
 using UserService.Domain.Entities;
 using UserService.Domain.Enums;
 

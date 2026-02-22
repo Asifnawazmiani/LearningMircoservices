@@ -1,4 +1,5 @@
-﻿using Infrastructure.Persistence.Entities;
+﻿using Shared.Domain.Entities;
+using Shared.Domain.Events;
 using UserService.Domain.Enums;
 using UserService.Domain.Events;
 using UserService.Domain.Exceptions;

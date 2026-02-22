@@ -1,10 +1,8 @@
-﻿using Infrastructure.Persistence.Entities;
 using Microsoft.EntityFrameworkCore;
+using Shared.Domain.Entities;
+using Shared.Domain.Repositories;
 
 namespace Infrastructure.Persistence.Repositories;
-
-// src/Infrastructure/Infrastructure.Persistence/
-// Repositories/BaseRepository.cs
 
 public abstract class BaseRepository<TEntity, TId>(DbContext dbContext) : IBaseRepository<TEntity, TId> where TEntity : BaseEntity<TId>
 {
