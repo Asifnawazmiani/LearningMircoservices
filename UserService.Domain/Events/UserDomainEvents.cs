@@ -1,3 +1,4 @@
+using Shared.Domain.Events;
 using UserService.Domain.Enums;
 
 namespace UserService.Domain.Events;

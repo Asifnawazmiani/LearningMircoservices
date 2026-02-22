@@ -7,6 +7,9 @@
     <Project Path="OrderService.Client/OrderService.Client.csproj" Id="a6071d4a-ac39-40af-88c0-fe8cb54105ee" />
     <Project Path="UserService.Client/UserService.Client.csproj" Id="1e5f58d3-29a9-44ad-805a-d75bebdbdf67" />
   </Folder>
+  <Folder Name="/Contracts/">
+    <Project Path="UserService.Contracts/UserService.Contracts.csproj" Id="a6248515-e446-4188-b8f6-517eb3299a0e" />
+  </Folder>
   <Folder Name="/Domain/">
     <Project Path="InventoryService.Domain/InventoryService.Domain.csproj" Id="3f19ff7e-7797-41ac-89c3-02d791ec7b1e" />
     <Project Path="OrderService.Domain/OrderService.Domain.csproj" Id="82b1292d-3ce5-4aed-9858-251828ae7348" />
@@ -30,8 +33,11 @@
   </Folder>
   <Folder Name="/Shared/">
     <Project Path="Shared.Common/Shared.Common.csproj" Id="ad4e4dd8-35b1-4c66-bcfa-275b6118f110" />
+    <Project Path="Shared.Domain/Shared.Domain.csproj" Id="e32ed19d-e447-4c30-9aa0-956dd1a021e6" />
     <Project Path="Shared.Events/Shared.Events.csproj" Id="878647dd-df95-4064-8bc1-c072db585e4a" />
   </Folder>
   <Project Path="AppHost/AppHost.csproj" Id="e7a54368-a42d-4903-8973-f05c82ad9a3f" />
+  <Project Path="InventoryService.Contracts/InventoryService.Contracts.csproj" />
+  <Project Path="OrderService.Contracts/OrderService.Contracts.csproj" />
   <Project Path="ServiceDefaults/ServiceDefaults.csproj" Id="4f0560c2-5a20-4598-a48b-31f6c9834815" />
 </Solution>

@@ -17,9 +17,11 @@
     <PackageVersion Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.3.9" />
 
     <!-- ════════════════════════════════ -->
-    <!-- ASP.NET Core                    -->
+    <!-- ASP.NET Core & OpenAPI          -->
     <!-- ════════════════════════════════ -->
     <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3" />
+    <!-- Scalar UI for .NET 10 OpenAPI documentation -->
+    <PackageVersion Include="Scalar.AspNetCore" Version="2.0.0" />
 
     <!-- ════════════════════════════════ -->
     <!-- EF Core                         -->

@@ -11,6 +11,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+		<PackageReference Include="Scalar.AspNetCore" />
 		<PackageReference Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" />
 		<PackageReference Include="Aspire.RabbitMQ.Client" />
 		<PackageReference Include="MassTransit.RabbitMQ" />
@@ -27,6 +28,8 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\ServiceDefaults\ServiceDefaults.csproj" />
+		<ProjectReference Include="..\InventoryService.Infrastructure\InventoryService.Infrastructure.csproj" />
+		<ProjectReference Include="..\InventoryService.Contracts\InventoryService.Contracts.csproj" />
 	</ItemGroup>
 
 </Project>
